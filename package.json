@@ -1,0 +1,15 @@
+{
+  "name": "workspace-crap",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "npm run test -w b"
+  },
+  "author": "",
+  "license": "ISC",
+  "workspaces": [
+    "a",
+    "b"
+  ]
+}
